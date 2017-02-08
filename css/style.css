@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	font-family: Impact; 
+	background-color: #696969;
+}
+
+.container {
+	max-width: 400px;
+	background-color: #6600cc;
+	color: white;
+	margin: 0 auto;
+}
+
+.needsDoing {
+	background-color: #9933ff;
+	padding: 10px;
+	margin: 10px 0 0 -30px;
+	display: inline-block;
+	min-width: 90%;
+	list-style-type: none;
+	font-size: 25px;
+}
+
+.needsDoing:last-of-type {
+	margin-bottom: 20px; 
+}
+
+.input {
+	margin: 10px auto;
+	padding-top: 20px;	
+}
+
+
+.thingsToDo {
+	margin: 0;
+}
+
+.submitButton {
+	height: 25px;
+	width: 20%;
+	margin-top: 8px;
+	margin-bottom: 10px;
+}
+
+#userToDo {
+	width: 60%;
+	height:40px;
+	text-align: center;
+	font-family: Impact;
+	font-size: 20px;
+}
